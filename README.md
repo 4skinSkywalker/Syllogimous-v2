@@ -1,2 +1,2 @@
 # Syllogimous-v2
-Welcome :D
+[Try it](https://4skinSkywalker.github.io/Syllogimous-v2)
