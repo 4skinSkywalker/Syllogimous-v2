@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllogimous v2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="battlefield">
+        <div class="sliders">
+            <label id="fontSize">
+                <span>Font size: <b>x</b></span>
+                <input type="range" min="1" max="4" step="0.1">
+            </label>
+            <label id="syllogismLength">
+                <span>Syllogism length: <b>x</b></span>
+                <input type="range" min="1" max="22" step="1">
+            </label>
+        </div>
+        <div class="neumorphicWrapper">
+            <div class="neumorphicReader">
+                <pre class="syllogism"></pre>
+            </div>
+            <div class="controls">
+                <button class="halfPill left">T</button><button class="halfPill right">F</button>
+            </div>
+            <a class="sign" href="https://www.linkedin.com/in/f3d3r1c07r0774/">@LinkedIn</a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
